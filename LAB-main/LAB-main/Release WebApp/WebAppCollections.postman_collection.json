@@ -1,0 +1,240 @@
+{
+	"info": {
+		"_postman_id": "63cf2f38-fcb0-4c84-912e-b0dbe967a5f3",
+		"name": "WebAppCollections",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "UsersRequest",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Vika\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/Users/Info/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Users",
+						"Info",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Item by Importance",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Do HomeWork\",\r\n    \"Category\" : \"Sleep\",\r\n    \"Importance\" : \"High\",\r\n    \"IsComplete\" : false,\r\n    \"StartTime\": \"2021-04-19T22:00:00\",\r\n    \"UserId\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/TodoItems/ByImportance/3?importance=High",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"TodoItems",
+						"ByImportance",
+						"3"
+					],
+					"query": [
+						{
+							"key": "importance",
+							"value": "High"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Items by Time",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/TodoItems/ByTime/3?startTime=2021-04-19T19:00:00&EndTime=2021-04-19T20:00:00",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"TodoItems",
+						"ByTime",
+						"3"
+					],
+					"query": [
+						{
+							"key": "startTime",
+							"value": "2021-04-19T19:00:00"
+						},
+						{
+							"key": "EndTime",
+							"value": "2021-04-19T20:00:00"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ItemsIsComplete",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/TodoItems/IsComplete/1?IsComplete=false",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"TodoItems",
+						"IsComplete",
+						"1"
+					],
+					"query": [
+						{
+							"key": "IsComplete",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Items by Category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/TodoItems/ByCategory/1?category=Medium",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"TodoItems",
+						"ByCategory",
+						"1"
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": "Medium"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "toDoitem",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/TodoItems/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"TodoItems",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/Users/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddItem",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Play\",\r\n    \"category\":\"Relax\",\r\n    \"Importance\":\"Low\",\r\n    \"IsComplete\":false,\r\n    \"startTime\": \"2021-04-19T12:00:00\",\r\n    \"endTime\":\"2021-04-20T9:00:00\",\r\n    \"UserId\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/TodoItems/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"TodoItems",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
