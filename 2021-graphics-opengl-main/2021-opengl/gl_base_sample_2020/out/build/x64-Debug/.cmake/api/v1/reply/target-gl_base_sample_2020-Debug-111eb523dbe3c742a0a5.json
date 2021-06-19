@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "E:/2021-graphics-opengl-main/2021-opengl/gl_base_sample_2020/bin/gl_base_sample_2020.exe"
+			"path" : "C:/Users/yarik/Documents/GitHub/CG_Dudchenko/2021-graphics-opengl-main/2021-opengl/gl_base_sample_2020/bin/gl_base_sample_2020.exe"
 		},
 		{
-			"path" : "E:/2021-graphics-opengl-main/2021-opengl/gl_base_sample_2020/bin/gl_base_sample_2020.pdb"
+			"path" : "C:/Users/yarik/Documents/GitHub/CG_Dudchenko/2021-graphics-opengl-main/2021-opengl/gl_base_sample_2020/bin/gl_base_sample_2020.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -66,11 +66,11 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "E:/2021-graphics-opengl-main/2021-opengl/gl_base_sample_2020/dependencies/include/GLAD"
+					"path" : "C:/Users/yarik/Documents/GitHub/CG_Dudchenko/2021-graphics-opengl-main/2021-opengl/gl_base_sample_2020/dependencies/include/GLAD"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "E:/2021-graphics-opengl-main/2021-opengl/gl_base_sample_2020/dependencies/include"
+					"path" : "C:/Users/yarik/Documents/GitHub/CG_Dudchenko/2021-graphics-opengl-main/2021-opengl/gl_base_sample_2020/dependencies/include"
 				}
 			],
 			"language" : "C",
@@ -90,11 +90,11 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "E:/2021-graphics-opengl-main/2021-opengl/gl_base_sample_2020/dependencies/include/GLAD"
+					"path" : "C:/Users/yarik/Documents/GitHub/CG_Dudchenko/2021-graphics-opengl-main/2021-opengl/gl_base_sample_2020/dependencies/include/GLAD"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "E:/2021-graphics-opengl-main/2021-opengl/gl_base_sample_2020/dependencies/include"
+					"path" : "C:/Users/yarik/Documents/GitHub/CG_Dudchenko/2021-graphics-opengl-main/2021-opengl/gl_base_sample_2020/dependencies/include"
 				}
 			],
 			"language" : "CXX",
@@ -129,7 +129,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LIBPATH:E:\\2021-graphics-opengl-main\\2021-opengl\\gl_base_sample_2020\\dependencies\\lib",
+				"fragment" : "-LIBPATH:C:\\Users\\yarik\\Documents\\GitHub\\CG_Dudchenko\\2021-graphics-opengl-main\\2021-opengl\\gl_base_sample_2020\\dependencies\\lib",
 				"role" : "libraryPath"
 			},
 			{
